@@ -1,0 +1,9 @@
+# C++ build artifacts
+build-*/
+
+# Compiled object files
+*.o
+
+# Executables
+*.exe
+*.out
