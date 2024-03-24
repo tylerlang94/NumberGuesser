@@ -4,6 +4,7 @@
 bool PlayGame(int guesses, int number) {
     for (int count {1}; count <= guesses; ++count) {
         std::cout << "Guess Number: " << count << '\n';
+        std::cout << "What is your guess: ";
 
         int guess{};
         std::cin >> guess;
@@ -42,7 +43,7 @@ bool PlayAgain(){
 
 int main() {
     constexpr int guesses {7};
-
+               
     do {
         int number {Random::get(1,100)};
 
